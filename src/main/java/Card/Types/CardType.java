@@ -1,4 +1,4 @@
-package Card;
+package Card.Types;
 
 public enum CardType {
     WORKDAY, WEEKEND

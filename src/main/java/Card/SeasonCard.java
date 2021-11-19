@@ -1,5 +1,7 @@
 package Card;
 
+import Card.Types.CardType;
+import Card.Types.SeasonType;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,5 +9,6 @@ import lombok.Setter;
 public class SeasonCard extends SkiPass{
     //private ;
     public SeasonCard(){}
+    public SeasonCard(CardType cardType, SeasonType seasonType){}
 
 }

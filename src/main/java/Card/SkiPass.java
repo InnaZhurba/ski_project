@@ -1,5 +1,6 @@
 package Card;
 
+import Card.Types.CardType;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,4 +8,5 @@ import lombok.Setter;
 public abstract class SkiPass {
     private int ID;
     private CardType type;
+    private Boolean active;
 }
